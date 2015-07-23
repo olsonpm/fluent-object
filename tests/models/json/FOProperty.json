@@ -1,0 +1,7 @@
+{
+  "Name": "Test",
+  "Constr": "String",
+  "Flags": [
+    "back_end"
+  ]
+}

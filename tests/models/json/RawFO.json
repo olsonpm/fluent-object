@@ -1,0 +1,27 @@
+{
+  "ConstructorName": "TestRawFO",
+  "Imports": [
+    {
+      "Constr": "Test",
+      "Package": "Testful"
+    }
+  ],
+  "StaticEnums": [
+    {
+      "Name": "TestStaticEnum",
+      "Contents": {
+        "aTest": "a-test"
+      }
+    }
+  ],
+  "Properties": [
+    {
+      "Name": "TestProperty",
+      "Constr": "String",
+      "Flags": [
+        "back_end",
+        "not_null"
+      ]
+    }
+  ]
+}

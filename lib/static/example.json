@@ -1,0 +1,29 @@
+[
+  {
+    "ConstructorName": "<your constructor name>",
+    "Imports": [
+      {
+        "Constr": "TestConstructor",
+        "Package": "TestPackage"
+      }
+    ],
+    "StaticEnums": [
+      {
+        "Name": "<name of your static enum>",
+        "Contents": {
+          "a_name": "a_value"
+        }
+      }
+    ],
+    "Properties": [
+      {
+        "Name": "<name of fluent property>",
+        "Constr": "<name of constructor>",
+        "Flags": [
+          "<choose any of below flags>",
+          "back_end"
+        ]
+      }
+    ]
+  }
+]

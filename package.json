@@ -1,0 +1,36 @@
+{
+  "name": "fluent-object",
+  "version": "0.1.0",
+  "description": "A tool for creating defensive javascript objects.  Each object is serializable, extendable, strongly typed, contains an 'equals' method, and comes with a fluent API.\"",
+  "main": "index.js",
+  "bin": {
+    "fo": "bin/fo.js"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "commander": "^2.8.1",
+    "cp": "^0.2.0",
+    "fs-bluebird": "^0.1.4",
+    "handlebars": "^3.0.3",
+    "mkdirp": "^0.5.1",
+    "node-helpers": "^1.0.0",
+    "node-utils": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "rimraf": "^2.4.1"
+  },
+  "scripts": {
+    "test": "mocha -u bdd --no-colors --recursive --reporter spec tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/fluent-object.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/fluent-object/issues"
+  },
+  "homepage": "https://github.com/olsonpm/fluent-object#readme"
+}
